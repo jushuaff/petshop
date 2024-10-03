@@ -27,6 +27,8 @@ body {
         font-size: 12px !important;
     }
 
+    .navbar-toggler { background-color: white; }
+
     .nav-bottom {
         padding: 5px 0;
         display: flex;
@@ -160,4 +162,15 @@ footer {
             text-decoration: none;
         }
     }
+}
+
+@media (max-width: 1200px) {
+    .banner-section,
+    footer {
+        background-size: auto 100%;
+    }
+}
+
+@media (max-width: 769) {
+    .footer-top-row { flex-direction: column; }
 }
